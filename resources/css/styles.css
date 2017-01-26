@@ -1,0 +1,86 @@
+html, body, .container {
+    font-family: Ubuntu, Helvetica, Arial ,sans-serif;
+   	color: #eee;
+}
+
+nav,footer,
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 60px auto;
+	padding: 15px;
+	max-width: 1200px;
+	background: #3A3A3C;
+
+}
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+a:hover { color: #efefef; }
+
+h1 { font-size: 3em; }
+
+p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+blockquote {
+	border-left: 4px solid #aaa;
+	padding-left: 15px;
+	width: 80%;
+	margin: auto;
+}
+
+blockquote .blockquote-subtext {
+	padding-top: 30px;
+	display: block;
+	text-align: right;
+}
+
+img.img-responsive {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li { list-style: none; }
+
+.post {
+	max-width: 800px;
+	margin: auto;
+}
+
+@media(max-width: 768px) {
+	
+}
+
+@media(max-width: 992px) {
+	
+}
+
+@media(max-width: 1200px) {
+	
+}
