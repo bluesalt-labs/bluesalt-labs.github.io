@@ -16,7 +16,7 @@ body {
 
 }
 nav ul, footer ul {
-    padding: 0px;
+    padding: 0;
     list-style: none;
     font-weight: bold;
 }
@@ -24,6 +24,8 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+footer ul i { font-size: 1.4em; }
 a {
     text-decoration: none;
     color: #aaa;
