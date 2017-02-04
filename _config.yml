@@ -3,7 +3,7 @@ email: luke@bluesaltlabs.com
 github_username:  bluesalt-labs
 markdown: kramdown
 url: "http://bluesalt-labs.github.io" # the base hostname & protocol for your site
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:title
 
 #title: Your awesome title
 
