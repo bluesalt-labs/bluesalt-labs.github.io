@@ -26,6 +26,7 @@
 	<nav>
 		<ul>
 			<li><a href="/">Home</a></li>
+			<li><a href="/projects">Projects</a></li>
 			<li><a href="/about">About</a></li>
 			<li><a href="/blog">Blog</a></li>
 		</ul>
@@ -34,15 +35,16 @@
 		{{ content }}
 	</div>
 	<footer>
-		<ul>
-			<li><a href="mailto:luke@bluesaltlabs.com" title="Email luke@bluesaltlabs.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-
-			<li><a href="https://github.com/bluesalt-labs/" target="_blank" title="View BlueSalt Labs on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-			<li><a class="github-button" href="https://github.com/bluesalt-labs" data-count-href="/bluesalt-labs/followers" data-count-api="/users/bluesalt-labs#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @bluesalt-labs on GitHub">Follow @bluesalt-labs</a></li>
-
-			<li><a href="https://github.com/lukerz8/" target="_blank" title="View lukerz8 on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-			<li><a class="github-button" href="https://github.com/lukerz8" data-count-href="/lukerz8/followers" data-count-api="/users/lukerz8#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @lukerz8 on GitHub">Follow @lukerz8</a></li>
+		<ul id="footer-left">
+			<li><img id="footer-logo" src="/resources/images/logo.png" /></li>
+			<li>{{ site.time | date: '%Y' }} BlueSalt Labs</li>
 		</ul>
+		<ul id="footer-right">
+			<li><a href="mailto:luke@bluesaltlabs.com" title="Email luke@bluesaltlabs.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+			<li><a href="https://github.com/bluesalt-labs/" target="_blank" title="View BlueSalt Labs on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+			<!--<li><a href="https://github.com/lukerz8/" target="_blank" title="View lukerz8 on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>-->
+		</ul>
+		<div style="clear:both;"></div>
 	</footer>
 </body>
 </html>

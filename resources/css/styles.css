@@ -29,6 +29,8 @@ footer ul i { font-size: 1.4em; }
 a {
     text-decoration: none;
     color: #aaa;
+    -webkit-transition: color 200ms;
+    transition: color 200ms;
 }
 a:hover { color: #efefef; }
 
@@ -58,25 +60,116 @@ img.img-responsive {
 	display: block;
 }
 
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
 ul.posts li { list-style: none; }
 
 .post {
-	max-width: 800px;
-	margin: auto;
+    max-width: 800px;
+    margin: auto;
 }
 
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    position: relative;
+}
+
+footer #footer-left,
+footer #footer-right {
+    vertical-align: middle;
+    height: 25px;
+    margin: 25px 0;
+}
+
+footer #footer-left {
+    float: left;
+    font-size: 1.4em;
+    padding-left: 15px;
+}
+footer #footer-right {
+    float: right;
+    font-size: 1.6em;
+    padding-right: 15px;
+}
+
+#footer-logo {
+    height: 32px;
+    width: 32px;
+    margin-bottom: -8px;
+    margin-right: -10px;
+}
+
+.inline-link { margin: 0 10px; }
+
+/*------------------------------ Project Boxes ------------------------------*/
+.project-box-container {
+    width: 100%;
+    margin: auto;
+}
+.project-box {
+    background: #464648;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    -webkit-transition: box-shadow 300ms;
+    transition: box-shadow 300ms;
+}
+
+.project-box:hover {
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.project-box-header h2 { font-size: 20px; }
+
+.project-box-content {
+
+}
+
+.project-box-content  img {
+    margin: auto;
+}
+
+@media(min-width: 768px) {
+    .project-box-container { width: 650px; }
+
+    .project-box {
+        float: left;
+        margin: 10px;
+        width: 265px;
+        height: 265px;
+    }
+}
+
+@media(min-width: 1210px) {
+    .project-box-container { width: 1200px; }
+
+    .project-box {
+        margin: 15px;
+        width: 335px;
+        height: 335px;
+    }
+
+    .project-box-header h2 { font-size: 24px; }
+}
+
+/*---------------------------------------------------------------------------*/
+
 @media(max-width: 768px) {
-	
+    footer #footer-left,
+    footer #footer-right {
+        padding: 0;
+    }
 }
 
 @media(max-width: 992px) {
