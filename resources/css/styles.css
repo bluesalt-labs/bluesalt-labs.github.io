@@ -179,3 +179,17 @@ footer #footer-right {
 @media(max-width: 1200px) {
 	
 }
+
+/*-------------------------------- About Page -------------------------------*/
+#stackoverflow-iframe {
+    position: relative;
+    width: 100%;
+    border: none;
+    height: 100%;
+    min-height: 650px;
+    overflow-y: scroll;
+}
+
+@media(max-width: 830px) {
+    #stackoverflow-iframe { overflow-x: scroll; }
+}
