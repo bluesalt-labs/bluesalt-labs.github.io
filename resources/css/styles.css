@@ -132,13 +132,7 @@ footer #footer-right {
 
 .project-box-header h2 { font-size: 20px; }
 
-.project-box-content {
-
-}
-
-.project-box-content  img {
-    margin: auto;
-}
+.project-box-content img { margin: auto; }
 
 @media(min-width: 768px) {
     .project-box-container { width: 650px; }
@@ -149,6 +143,14 @@ footer #footer-right {
         width: 265px;
         height: 265px;
     }
+}
+
+@media(max-width: 992px) {
+    .project-box-content img { max-height: inherit; }
+}
+
+@media(max-width: 1200px) {
+    .project-box-content img { max-height: 200px; }
 }
 
 @media(min-width: 1210px) {
@@ -190,6 +192,6 @@ footer #footer-right {
     overflow-y: scroll;
 }
 
-@media(max-width: 830px) {
+@media(max-width: 845px) {
     #stackoverflow-iframe { overflow-x: scroll; }
 }
