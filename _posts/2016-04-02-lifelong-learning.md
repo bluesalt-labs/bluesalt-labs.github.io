@@ -2,7 +2,7 @@
 layout: post
 title:  "Lifelong Learning"
 date:   2016-04-02 14:12:51 -0800
-categories: 
+categories: thoughts
 ---
 
 <blockquote>“Self-education is, I firmly believe, the only kind of education there is.”
