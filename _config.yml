@@ -1,9 +1,22 @@
 name: BlueSalt Labs (Luke Sontrop)
+title: BlueSalt Labs Home
+description: >
+  The BlueSalt Labs home page. Read the BlueSalt Labs blog
+  and learn more about current projects. 
+baseurl: /
 email: luke@bluesaltlabs.com
+twitter_username: bluesaltlabs
 github_username:  bluesalt-labs
 markdown: kramdown
-url: "http://bluesalt-labs.github.io" # the base hostname & protocol for your site
+highlighter: rouge
+kramdown:
+  input: GFM
+url: "http://www.bluesaltlabs.com" # the base hostname & protocol for your site
 permalink: /blog/:year/:month/:title
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
 
 #title: Your awesome title
 
