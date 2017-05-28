@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, World!"
 date:   2016-03-20 14:12:51 -0800
-categories: 
+categories: thoughts
 ---
 
 My name is Luke, AKA BlueSalt Labs. For those of you who understand what the title of this post is referencing, I hope you can appreciate why I chose it. For those of you who don't, please click here: ["Hello, World!" program - Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program){:target='_blank'}
