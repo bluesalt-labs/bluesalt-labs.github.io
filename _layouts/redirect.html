@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<p>
+{% if page.redirect != null %}
+    {% if page.redirect_title != null %}
+    This page should redirect to <a href="{{ page.redirect }}">{{ page.redirect_title }}</a>.
+    {% else %}
+    No redirect title is specified, so why are you using this template?
+    {% endif %}
+{% else %}
+    No redirect URL is specified, so why are you using this template?
+{% endif %}
+</p>
+
+{{ content }}
